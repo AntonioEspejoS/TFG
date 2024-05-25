@@ -1,4 +1,5 @@
 -----Credenciales de usuarios-----
+
 Administrador del sistema:
 +DNI:00000000Z	contraseña:1234qwer
 
