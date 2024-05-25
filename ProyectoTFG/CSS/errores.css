@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+#cabecera{
+    padding-bottom: 1em;
+}
+nav{
+    border-top: 3px solid #282828;
+}
+#banderas{
+   text-align: center;
+padding-top: 1em;
+}
+.bandera{
+    width: 2em;
+}
+#cuerpo{
+    margin-top: 6em;
+    text-align: center;
+     margin-left: 9%;
+}
+#botonVolver{
+    margin-top: 6em;
+    margin-left: 9%;
+}
+#enunciadoAcceso{
+       float: left;
+    text-align: center;
+}
+#enunciadoAdver{
+    margin-left: 2em;
+    margin-right: 2em;
+    float: left;
+    text-align: center;
+  
+}
+#candado{
+    float: left;
+    width: 4em;
+}
+#advertencia{
+    float: left;
+    width: 4em;
+}
+#mensaje{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+#body{
+    float: left;
+    padding-top: 2em;
+    width: 100%;
+    text-align: center;
+   
+        
+}

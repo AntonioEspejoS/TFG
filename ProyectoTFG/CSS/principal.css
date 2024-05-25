@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Para que los dialogos se queden por encima de otros elementos como el mapa*/
+.ui-dialog {
+    z-index: 10000 !important;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.table{
+    margin-bottom: 0;
+}
+#cabecera{
+    padding-bottom: 1em;
+}
+.pass{
+    border: 0px;
+}
+.errorCampo{
+    color: #dc3545!important;
+    float:left; 
+    display:block;
+}
+#logo img{
+    width: 100%;
+}
+#banderas{
+   text-align: center;
+padding-top: 1em;
+}
+.bandera{
+    width: 2em;
+}
+/*Menu*/
+nav{
+    border-top: 1.5px solid #282828;
+    width: 100%;
+    /*z-index: 100;*/
+    background-color: green;
+    border-bottom: 1.5px solid #282828;
+
+}
+#iconos{
+    width:1.6em;
+    margin-right: 0.5em;
+    margin-left: 1em;;
+}
+@media (max-width: 992px) {
+    .navbar-nav .nav-item {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        border-top: 1px solid #fff; /* Línea de separación */
+    }
+    .navbar-nav .nav-link {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        margin-right: 15px; /* Ajuste para el botón de hamburguesa */
+    }
+
+    .navbar-collapse {
+        margin-top: 10px;
+    }
+}
+
+/* Asegúrate de que los íconos y el texto se alineen correctamente en todos los tamaños de pantalla */
+.nav-item {
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+/* Estilos específicos para el botón de hamburguesa si es necesario */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    /* Estilos para el ícono de hamburguesa, si se desea personalizar */
+}
+
+.datosPerfil{
+   margin-top: 2em;
+   margin-bottom: 2em;
+   -webkit-box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+   -moz-box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+   box-shadow:  4px 4px 4px 4px rgba(0,0,0,0.2);
+}
+.datosPerfil .table{
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: none;
+}
+.datosPerfil th {
+    background-color: #F4F4F4; /* Color de fondo para los encabezados */
+    /* color: #ffffff; Color de texto para los encabezados */
+}
+
+.datosPerfil td, .datosPerfil th {
+    /* Espaciado interno para celdas */
+    border-color: #dee2e6; /* Color del borde */
+}
+
+.tablasDatosPerfil td, .tablasDatosPerfil th {
+    /*border: 0px solid #dee2e6;*/
+}
+
+#container-competidores, #container-torneos {
+    max-width: 95%; /* Amplía el ancho máximo del contenedor */
+    overflow-x: auto; 
+}
+#tablaCompetidores {
+    width: 100% !important; 
+    margin-left: 0 !important; 
+    margin-right: 0 !important; 
+}
+
+
+/*Mostrar contrasena*/
+#mostrarPass {
+    display: inline-block; 
+    float: left;
+    margin-left: 1em;
+    width: 20px;
+    height: 20px; 
+    cursor: pointer; 
+}
+.ver, .ocultar {
+    display: inline-block; 
+    float: left; 
+    width: 20px; 
+    height: 20px;
+    cursor: pointer;  
+    margin-left: 10px; 
+    background-size: contain; 
+    background-position: center; 
+}
+
+.ver {
+    background-image: url('../img/ver.png');
+}
+
+.ocultar {
+    background-image: url('../img/ocultar.png');
+}
+#password1{
+    display: block;
+    float: left;  
+}
+.botonAmarilloPerfil{
+    float: right;
+}
+
+.oculto {
+    display: none;
+}
+.textoCentrado{
+    text-align: center;
+    margin-top: 0.5em;
+}
+#listaCategorias{
+    text-align: center;
+}
+#listaCategorias h3{
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+.botonesPesos{
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+#cambiarPeso{
+    margin-left: 1em;
+}
+.categoriah3{
+    padding-top: 0.7em;
+}
+a{
+   color: black; 
+}
+.btn-warning-custom {
+  background-color: #ffff28 !important;
+  border-color: #ffff28 !important;
+}
+
+.btn-warning-custom:hover {
+  background-color: #ecec13 !important;
+  border-color: #ecec13 !important;
+}
+
+
+
+table tr th {
+   cursor: pointer;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+
+}
+table th {
+    white-space: nowrap;
+}
+/*Ordenación de tablas*/
+.sorting {
+   background-color: #D4D4D4;
+}
+.asc:after {
+    
+   content: ' ↑';
+}
+.desc:after {
+   content: " ↓";
+}
+#iconosFlechas{
+    display: inline-block;
+    vertical-align: middle; /* Alinea la imagen verticalmente en el centro junto al texto */
+    width: 20px; /* Ajusta la anchura de la imagen */
+    margin-left: 5px; /* Añade un pequeño margen a la izquierda de la imagen */
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+/*Cambiar ubicacion*/
+#btnCambiarUbicacion{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*Mapa*/
+
+#mapaClub{
+  margin-top: 20px;
+  margin-bottom: 70px;  
+}
+#mapaSeleccion{
+  margin-top: 20px;
+  margin-bottom: 20px;  
+}
+.botonesDialogos{
+padding-left: 1em;
+padding-right: 1em;
+}
+/*Crear nuevo torneo*/
+#nuevoTorneo{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.botonDerecha{
+     float: right;
+}
+#volverACategorias{
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nuevoTorneoDebajo {
+  display: block; /* Hace que el botón use todo el ancho */
+  margin-top: 20px; /* Espacio antes del botón */
+  margin-bottom: 20px; /* Espacio después del botón */
+  margin-left: auto; /* Junto con margin-right: auto centra el botón */
+  margin-right: auto;
+}
+
+/*Añadir arbitro al torneo*/
+.addArbitro{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Filtros resultados*/
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; /* Espacio entre cada filtro para no estén pegados */
+    margin-bottom: 20px; /* Espacio debajo del contenedor de filtros */
+}
+
+.filtros select, .filtros button {
+    flex-grow: 1;
+    margin: 5px; /* Margen alrededor de los selectores y el botón para evitar que se toquen */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .filtros select, .filtros button {
+        width: 100%; /* Hace que cada filtro ocupe el ancho completo en pantallas pequeñas */
+        flex-grow: unset; /* Desactiva el crecimiento automático en pantallas pequeñas */
+    }
+}
+
+/* Logo club */
+.club-logo {
+    max-width: 150px; /* Controla el tamaño del logo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen no se deforme */
+    margin: 0 auto; /* Centra la imagen en su contenedor si es más pequeña que el máximo */
+}
+.NombreClub {
+    margin-left: 20px; /* Ajusta el espacio entre el logo y el nombre */
+}
+@media (max-width: 768px) {
+    .NombreClub{
+        margin-left: 0; /* En pantallas pequeñas, quita el margen extra */
+    }
+}
+@media (max-width: 768px) {
+    .club-logo {
+        max-width: 100%; /* Permite que la imagen sea más flexible en pantallas pequeñas */
+    }
+}
+/*Imagenes de perfil*/
+
+.perfil-imagen-btn-wrapper {
+    max-width: 200px; /* Define el ancho máximo de la imagen y el botón */
+    margin-left: 0; /* Alinea el contenedor a la izquierda */
+}
+
+.perfil-imagen {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen no tenga margen extra alrededor */
+}
+
+.btn-block {
+    margin-top: 1em;
+    display: block; /* Hace que el botón ocupe todo el ancho del contenedor */
+    width: 100%; /* Asegura que el botón se ajuste al ancho del contenedor */
+}
+/*Imaenes de las tablas de los usuarios */
+.imagen-tabla {
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: 50px; /* Ajusta la altura de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor sin perder su proporción */
+    border-radius: 50%; /* Opcional: Crea un efecto de imagen circular */
+}
+
+
+
+
+

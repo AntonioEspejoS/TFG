@@ -1,0 +1,53 @@
+hr{
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+#nuevoTorneo{
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.enunciadoTabla{
+    text-align: center;
+    font-weight: bold;
+}
+.table{
+    margin-bottom: 4em;
+}
+.oculto {
+    display: none;
+}
+input{
+    margin-right:1em;
+}
+table tr th {
+   cursor: pointer;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.sorting {
+   background-color: #D4D4D4;
+}
+.asc:after {
+    
+   content: ' ↑';
+}
+.desc:after {
+   content: " ↓";
+}
+#iconosFlechas{
+    float: right;
+    width:1.6em;
+    margin-right: 0.5em;
+    margin-left: 1em;;
+}
+#iconosFlechas2{
+    width:1.6em;
+    margin-right: 0.5em;
+    margin-left: 1em;;
+}

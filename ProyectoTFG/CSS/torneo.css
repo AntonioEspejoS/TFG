@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.oculto{
+    display: none;
+}
+#banderas{
+   text-align: center;
+padding-top: 1em;
+}
+.bandera{
+    width: 2em;
+}
+section {
+    background-image: url(../img/fondoMMA.jpg);
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    align-items: center; /* Centrado vertical */
+    background-size: cover; /* Esto hará que la imagen de fondo cubra todo el espacio disponible */
+    background-position: center;
+    width: 100%; /* Establece el ancho al 100% del ancho de la ventana gráfica */
+    height: 100%; /* Establece la altura al 100% de la altura de la ventana gráfica */
+    position: absolute; /* Posicionamiento absoluto */    
+}
+#cabecera{
+    border-bottom: 6px solid green;
+    padding-bottom: 1em;
+
+}
+td{
+    width: 6em;
+    height: 2em;
+    border: 0px;
+    
+}
+input{
+  width: 4em;
+  height:2em;    
+}
+.boton{
+    width: 3em;
+    height: 3em;; 
+}
+.nombreRojo{
+    background:#ff3333;
+    border-right:  2px solid #cc0000;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    text-align: center;
+    width: 9em;
+    font-size: 1em;
+}
+.nombreAzul{
+    background:#0099ff;
+    border-right: 2px solid #3333ff ;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    text-align: center;
+    width: 9em;
+}
+.nombreRojo2{
+    background:#ff3333;
+    border-left:  2px solid #cc0000;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    text-align: center;
+    width: 9em;
+    font-size: 1em;
+}
+.nombreAzul2{
+    background:#0099ff;
+    border-left: 2px solid #3333ff ;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    text-align: center;
+    width: 9em;
+}
+.nombreGanador{
+    background:gold;
+    border: 2px solid #cccc00; 
+    text-align: center;
+}
+.puntuacionRojo{
+    background:#ff3333;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
+}
+.puntuacionAzul{
+    background:#0099ff;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius:  0.5em;
+    padding-left: 1em;
+    padding-right: 1em;   
+     width: auto;
+}
+.puntuacionRojo2{
+    background:#ff3333;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: auto;
+}
+.puntuacionAzul2{
+    background:#0099ff;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius:  0.5em;
+    padding-left: 1em;
+    padding-right: 1em;   
+     width: auto;
+}
+.lineaArriba{
+    border-top:2px solid white;
+    border-right:2px solid  white; 
+}
+.lineaAbajo{
+    border-bottom: 2px solid  white;
+    border-right:2px solid  white;
+}
+.lineaArriba2{
+    border-top:2px solid white;
+    border-left:2px solid  white; 
+}
+.lineaAbajo2{
+    border-bottom: 2px solid  white;
+    border-left:2px solid  white;
+}
+.lineaCentralArriba{
+    border-bottom: 2px solid  white;
+}
+.lineaCentralABajo{
+    border-top: 2px solid  white;
+}
+.bordeDerecha{
+    border-right:2px solid  white;
+}
+.bordeIzquierda{
+    border-left:2px solid  white;
+}
+.lineaRecta{
+   border-top: 2px solid  white;
+}
