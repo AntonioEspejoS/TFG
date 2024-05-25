@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:80"
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: proyectotfg
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    volumes:
+      - ./basededatos:/docker-entrypoint-initdb.d/
+      - dbdata:/var/lib/mysql
+
+volumes:
+  dbdata:
