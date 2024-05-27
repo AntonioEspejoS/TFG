@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-05-2024 a las 17:57:39
+-- Tiempo de generación: 27-05-2024 a las 23:20:06
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -258,7 +258,8 @@ CREATE TABLE `gestion` (
 --
 
 INSERT INTO `gestion` (`idGestion`, `idTorneo`, `dniArbitro`) VALUES
-(23, 49, '23685159N');
+(23, 49, '23685159N'),
+(25, 50, '23685159N');
 
 -- --------------------------------------------------------
 
@@ -312,7 +313,7 @@ CREATE TABLE `torneo` (
 
 INSERT INTO `torneo` (`idtorneo`, `fechainscripcion`, `fechatorneo`, `descripcion`, `estado`, `finalizado`, `plazas`) VALUES
 (49, '2023-05-01', '2023-05-10', 'Copa Andalucía 2023', 0, 1, 8),
-(50, '2024-05-05', '2024-05-18', 'Campeonato Andalucía 2024', 0, 0, 8);
+(50, '2024-05-05', '2024-05-18', 'Campeonato Andalucía 2024', 0, 1, 8);
 
 --
 -- Índices para tablas volcadas
@@ -386,7 +387,7 @@ ALTER TABLE `torneo`
 -- AUTO_INCREMENT de la tabla `categorias`
 --
 ALTER TABLE `categorias`
-  MODIFY `idCategoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1802;
+  MODIFY `idCategoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1808;
 
 --
 -- AUTO_INCREMENT de la tabla `club`
@@ -404,7 +405,7 @@ ALTER TABLE `enfrentamiento`
 -- AUTO_INCREMENT de la tabla `gestion`
 --
 ALTER TABLE `gestion`
-  MODIFY `idGestion` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `idGestion` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT de la tabla `registrado`
@@ -416,7 +417,7 @@ ALTER TABLE `registrado`
 -- AUTO_INCREMENT de la tabla `torneo`
 --
 ALTER TABLE `torneo`
-  MODIFY `idtorneo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `idtorneo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
