@@ -83,7 +83,7 @@ include '../idioma/idioma.php';
                         
                     </div> 
                         
-                        <h2 class="textoCentrado">Coachs</h2>
+                        <h2 class="textoCentrado">Coaches</h2>
                         <div class="table-responsive">
                         <table id="tablaCoachClub" class="table table-striped table-hover">
                           <thead>
