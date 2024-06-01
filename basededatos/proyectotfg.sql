@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-05-2024 a las 23:20:06
+-- Tiempo de generación: 01-06-2024 a las 13:43:58
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -115,12 +115,54 @@ INSERT INTO `categorias` (`idCategoria`, `idtorneo`, `sexo`, `peso`, `edad`, `mo
 (1793, 49, 'm', 79, 'senior', 'lowkick', 1),
 (1794, 49, 'm', 84, 'senior', 'lowkick', 1),
 (1795, 49, 'm', 90, 'senior', 'lowkick', 1),
-(1796, 50, 'm', 64, 'senior', 'lowkick', 1),
-(1797, 50, 'm', 69, 'senior', 'lowkick', 1),
-(1798, 50, 'm', 74, 'senior', 'lowkick', 1),
-(1799, 50, 'm', 79, 'senior', 'lowkick', 1),
-(1800, 50, 'm', 84, 'senior', 'lowkick', 1),
-(1801, 50, 'm', 90, 'senior', 'lowkick', 1);
+(1808, 52, 'm', 64, 'junior', 'lowkick', 1),
+(1809, 52, 'm', 69, 'junior', 'lowkick', 1),
+(1810, 52, 'm', 74, 'junior', 'lowkick', 1),
+(1811, 52, 'm', 79, 'junior', 'lowkick', 1),
+(1812, 52, 'm', 84, 'junior', 'lowkick', 1),
+(1813, 52, 'm', 90, 'junior', 'lowkick', 1),
+(1814, 52, 'f', 49, 'junior', 'lowkick', 1),
+(1815, 52, 'f', 59, 'junior', 'lowkick', 1),
+(1816, 52, 'f', 64, 'junior', 'lowkick', 1),
+(1817, 52, 'f', 69, 'junior', 'lowkick', 1),
+(1818, 52, 'f', 74, 'junior', 'lowkick', 1),
+(1819, 52, 'f', 79, 'junior', 'lowkick', 1),
+(1820, 52, 'm', 64, 'senior', 'lowkick', 1),
+(1821, 52, 'm', 69, 'senior', 'lowkick', 1),
+(1822, 52, 'm', 74, 'senior', 'lowkick', 1),
+(1823, 52, 'm', 79, 'senior', 'lowkick', 1),
+(1824, 52, 'm', 84, 'senior', 'lowkick', 1),
+(1825, 52, 'm', 90, 'senior', 'lowkick', 1),
+(1826, 52, 'f', 49, 'senior', 'lowkick', 1),
+(1827, 52, 'f', 59, 'senior', 'lowkick', 1),
+(1828, 52, 'f', 64, 'senior', 'lowkick', 1),
+(1829, 52, 'f', 69, 'senior', 'lowkick', 1),
+(1830, 52, 'f', 74, 'senior', 'lowkick', 1),
+(1831, 52, 'f', 79, 'senior', 'lowkick', 1),
+(1832, 52, 'm', 64, 'junior', 'fullcontact', 1),
+(1833, 52, 'm', 69, 'junior', 'fullcontact', 1),
+(1834, 52, 'm', 74, 'junior', 'fullcontact', 1),
+(1835, 52, 'm', 79, 'junior', 'fullcontact', 1),
+(1836, 52, 'm', 84, 'junior', 'fullcontact', 1),
+(1837, 52, 'm', 90, 'junior', 'fullcontact', 1),
+(1838, 52, 'f', 49, 'junior', 'fullcontact', 1),
+(1839, 52, 'f', 59, 'junior', 'fullcontact', 1),
+(1840, 52, 'f', 64, 'junior', 'fullcontact', 1),
+(1841, 52, 'f', 69, 'junior', 'fullcontact', 1),
+(1842, 52, 'f', 74, 'junior', 'fullcontact', 1),
+(1843, 52, 'f', 79, 'junior', 'fullcontact', 1),
+(1844, 52, 'm', 64, 'senior', 'fullcontact', 1),
+(1845, 52, 'm', 69, 'senior', 'fullcontact', 1),
+(1846, 52, 'm', 74, 'senior', 'fullcontact', 1),
+(1847, 52, 'm', 79, 'senior', 'fullcontact', 1),
+(1848, 52, 'm', 84, 'senior', 'fullcontact', 1),
+(1849, 52, 'm', 90, 'senior', 'fullcontact', 1),
+(1850, 52, 'f', 49, 'senior', 'fullcontact', 1),
+(1851, 52, 'f', 59, 'senior', 'fullcontact', 1),
+(1852, 52, 'f', 64, 'senior', 'fullcontact', 1),
+(1853, 52, 'f', 69, 'senior', 'fullcontact', 1),
+(1854, 52, 'f', 74, 'senior', 'fullcontact', 1),
+(1855, 52, 'f', 79, 'senior', 'fullcontact', 1);
 
 -- --------------------------------------------------------
 
@@ -207,7 +249,7 @@ INSERT INTO `competidores` (`dni`, `nombre`, `contrasena`, `correo`, `fech_nac`,
 ('76865456Q', 'Juan Castro', '1234qwer', 'juan@gmail.com', '1998-10-01', 'senior', 666666, 1, 74, 'm', 3, ''),
 ('78657888Q', 'Alvaro Jimenez', '1234qwer', 'prueba@gmail.com', '1998-10-04', 'senior', 666666, 2, 74, 'm', 3, ''),
 ('83205587M', 'María del Mar Martinez', '1234qwer', 'ejemplo@gmail.com', '1999-07-08', 'senior', 1676524, 1, 59, 'f', 3, ''),
-('99865256A', 'Adrian Matín', '1234qwer', 'adri@gmail.com', '1998-10-01', 'senior', 666666, 1, 64, 'm', 3, '');
+('99865256A', 'Adrian Martín', '1234qwer', 'adri@gmail.com', '1998-10-01', 'senior', 666666, 1, 64, 'm', 3, '');
 
 -- --------------------------------------------------------
 
@@ -234,12 +276,13 @@ CREATE TABLE `enfrentamiento` (
 --
 
 INSERT INTO `enfrentamiento` (`idEnfrentamiento`, `dni1`, `dni2`, `puntos1`, `puntos2`, `ronda`, `idTorneo`, `peso`, `sexo`, `edad`, `modalidad`) VALUES
-(2131, '99865256A', '00865253H', NULL, NULL, 1, 50, 64, 'm', 'senior', 'lowkick'),
-(2132, '12865456F', '76865456Q', 34, 23, 3, 50, 74, 'm', 'senior', 'lowkick'),
-(2133, '33865456T', '54678943W', 22, 11, 3, 50, 74, 'm', 'senior', 'lowkick'),
-(2134, '31017084C', '78657888Q', 23, 15, 2, 50, 74, 'm', 'senior', 'lowkick'),
-(2135, '12865456F', '33865456T', 12, 43, 2, 50, 74, 'm', 'senior', 'lowkick'),
-(2136, '33865456T', '31017084C', 22, 24, 1, 50, 74, 'm', 'senior', 'lowkick');
+(2142, '99865256A', '00865253H', 13, 23, 1, 52, 64, 'm', 'senior', 'lowkick'),
+(2143, '12865456F', '33865456T', 45, 44, 3, 52, 74, 'm', 'senior', 'lowkick'),
+(2144, '54678943W', '78657888Q', 11, 32, 3, 52, 74, 'm', 'senior', 'lowkick'),
+(2145, '76865456Q', '31017084C', 25, 33, 2, 52, 74, 'm', 'senior', 'lowkick'),
+(2146, '46270399B', '83205587M', 23, 12, 1, 52, 59, 'f', 'senior', 'fullcontact'),
+(2147, '12865456F', '78657888Q', 12, 23, 2, 52, 74, 'm', 'senior', 'lowkick'),
+(2149, '78657888Q', '31017084C', 11, 13, 1, 52, 74, 'm', 'senior', 'lowkick');
 
 -- --------------------------------------------------------
 
@@ -259,7 +302,7 @@ CREATE TABLE `gestion` (
 
 INSERT INTO `gestion` (`idGestion`, `idTorneo`, `dniArbitro`) VALUES
 (23, 49, '23685159N'),
-(25, 50, '23685159N');
+(26, 52, '23685159N');
 
 -- --------------------------------------------------------
 
@@ -282,14 +325,16 @@ CREATE TABLE `registrado` (
 --
 
 INSERT INTO `registrado` (`idRegistro`, `dnicompetidor`, `idtorneo`, `sexo`, `peso`, `edad`, `modalidad`) VALUES
-(77, '31017084C', 50, 'm', 74, 'senior', 'lowkick'),
-(78, '33865456T', 50, 'm', 74, 'senior', 'lowkick'),
-(79, '54678943W', 50, 'm', 74, 'senior', 'lowkick'),
-(80, '78657888Q', 50, 'm', 74, 'senior', 'lowkick'),
-(81, '12865456F', 50, 'm', 74, 'senior', 'lowkick'),
-(82, '76865456Q', 50, 'm', 74, 'senior', 'lowkick'),
-(83, '00865253H', 50, 'm', 64, 'senior', 'lowkick'),
-(84, '99865256A', 50, 'm', 64, 'senior', 'lowkick');
+(85, '31017084C', 52, 'm', 74, 'senior', 'lowkick'),
+(86, '00865253H', 52, 'm', 64, 'senior', 'lowkick'),
+(87, '12865456F', 52, 'm', 74, 'senior', 'lowkick'),
+(88, '33865456T', 52, 'm', 74, 'senior', 'lowkick'),
+(90, '46270399B', 52, 'f', 59, 'senior', 'fullcontact'),
+(91, '54678943W', 52, 'm', 74, 'senior', 'lowkick'),
+(92, '76865456Q', 52, 'm', 74, 'senior', 'lowkick'),
+(93, '78657888Q', 52, 'm', 74, 'senior', 'lowkick'),
+(94, '83205587M', 52, 'f', 59, 'senior', 'fullcontact'),
+(95, '99865256A', 52, 'm', 64, 'senior', 'lowkick');
 
 -- --------------------------------------------------------
 
@@ -313,7 +358,7 @@ CREATE TABLE `torneo` (
 
 INSERT INTO `torneo` (`idtorneo`, `fechainscripcion`, `fechatorneo`, `descripcion`, `estado`, `finalizado`, `plazas`) VALUES
 (49, '2023-05-01', '2023-05-10', 'Copa Andalucía 2023', 0, 1, 8),
-(50, '2024-05-05', '2024-05-18', 'Campeonato Andalucía 2024', 0, 1, 8);
+(52, '2024-06-02', '2024-06-12', 'Campeonato Andalucía 2024', 0, 1, 8);
 
 --
 -- Índices para tablas volcadas
@@ -387,7 +432,7 @@ ALTER TABLE `torneo`
 -- AUTO_INCREMENT de la tabla `categorias`
 --
 ALTER TABLE `categorias`
-  MODIFY `idCategoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1808;
+  MODIFY `idCategoria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1856;
 
 --
 -- AUTO_INCREMENT de la tabla `club`
@@ -399,25 +444,25 @@ ALTER TABLE `club`
 -- AUTO_INCREMENT de la tabla `enfrentamiento`
 --
 ALTER TABLE `enfrentamiento`
-  MODIFY `idEnfrentamiento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2137;
+  MODIFY `idEnfrentamiento` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2150;
 
 --
 -- AUTO_INCREMENT de la tabla `gestion`
 --
 ALTER TABLE `gestion`
-  MODIFY `idGestion` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `idGestion` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT de la tabla `registrado`
 --
 ALTER TABLE `registrado`
-  MODIFY `idRegistro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
+  MODIFY `idRegistro` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=96;
 
 --
 -- AUTO_INCREMENT de la tabla `torneo`
 --
 ALTER TABLE `torneo`
-  MODIFY `idtorneo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `idtorneo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
