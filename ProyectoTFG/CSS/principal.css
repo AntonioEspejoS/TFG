@@ -53,7 +53,7 @@ nav{
         display: flex;
         width: 100%;
         justify-content: center;
-        border-top: 1px solid #fff; /* Línea de separación */
+        border-top: 1px solid #fff; 
     }
     .navbar-nav .nav-link {
         flex-grow: 1;
@@ -69,19 +69,18 @@ nav{
     }
 }
 
-/* Asegúrate de que los íconos y el texto se alineen correctamente en todos los tamaños de pantalla */
 .nav-item {
     /*display: flex;*/
     /*align-items: center;*/
 }
 
-/* Estilos específicos para el botón de hamburguesa si es necesario */
+/* Estilos específicos para el botón de hamburguesa */
 .navbar-toggler {
     border: none;
 }
 
 .navbar-toggler-icon {
-    /* Estilos para el ícono de hamburguesa, si se desea personalizar */
+   
 }
 
 .datosPerfil{
@@ -220,9 +219,9 @@ table th {
 }
 #iconosFlechas{
     display: inline-block;
-    vertical-align: middle; /* Alinea la imagen verticalmente en el centro junto al texto */
-    width: 20px; /* Ajusta la anchura de la imagen */
-    margin-left: 5px; /* Añade un pequeño margen a la izquierda de la imagen */
+    vertical-align: middle; 
+    width: 20px; 
+    margin-left: 5px; 
 }
 
 hr{
@@ -265,10 +264,10 @@ padding-right: 1em;
   margin-bottom: 20px;
 }
 .nuevoTorneoDebajo {
-  display: block; /* Hace que el botón use todo el ancho */
-  margin-top: 20px; /* Espacio antes del botón */
-  margin-bottom: 20px; /* Espacio después del botón */
-  margin-left: auto; /* Junto con margin-right: auto centra el botón */
+  display: block; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  margin-left: auto; 
   margin-right: auto;
 }
 
@@ -285,67 +284,67 @@ padding-right: 1em;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 10px; /* Espacio entre cada filtro para no estén pegados */
-    margin-bottom: 20px; /* Espacio debajo del contenedor de filtros */
+    gap: 10px; 
+    margin-bottom: 20px; 
 }
 
 .filtros select, .filtros button {
     flex-grow: 1;
-    margin: 5px; /* Margen alrededor de los selectores y el botón para evitar que se toquen */
+    margin: 5px; 
 }
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
     .filtros select, .filtros button {
-        width: 100%; /* Hace que cada filtro ocupe el ancho completo en pantallas pequeñas */
+        width: 100%; 
         flex-grow: unset; /* Desactiva el crecimiento automático en pantallas pequeñas */
     }
 }
 
 /* Logo club */
 .club-logo {
-    max-width: 150px; /* Controla el tamaño del logo */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Asegura que la imagen no se deforme */
-    margin: 0 auto; /* Centra la imagen en su contenedor si es más pequeña que el máximo */
+    max-width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 .NombreClub {
-    margin-left: 20px; /* Ajusta el espacio entre el logo y el nombre */
+    margin-left: 20px; 
 }
 @media (max-width: 768px) {
     .NombreClub{
-        margin-left: 0; /* En pantallas pequeñas, quita el margen extra */
+        margin-left: 0; 
     }
 }
 @media (max-width: 768px) {
     .club-logo {
-        max-width: 100%; /* Permite que la imagen sea más flexible en pantallas pequeñas */
+        max-width: 100%; 
     }
 }
 /*Imagenes de perfil*/
 
 .perfil-imagen-btn-wrapper {
-    max-width: 200px; /* Define el ancho máximo de la imagen y el botón */
-    margin-left: 0; /* Alinea el contenedor a la izquierda */
+    max-width: 200px; 
+    margin-left: 0; 
 }
 
 .perfil-imagen {
-    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Asegura que la imagen no tenga margen extra alrededor */
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 
 .btn-block {
     margin-top: 1em;
-    display: block; /* Hace que el botón ocupe todo el ancho del contenedor */
-    width: 100%; /* Asegura que el botón se ajuste al ancho del contenedor */
+    display: block; 
+    width: 100%; 
 }
-/*Imaenes de las tablas de los usuarios */
+/*Imagenes de las tablas de los usuarios */
 .imagen-tabla {
-    width: 50px; /* Ajusta el ancho de la imagen */
-    height: 50px; /* Ajusta la altura de la imagen */
+    width: 50px; 
+    height: 50px; 
     object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor sin perder su proporción */
-    border-radius: 50%; /* Opcional: Crea un efecto de imagen circular */
+    border-radius: 50%; /*Crea un efecto de imagen circular */
 }
 
 

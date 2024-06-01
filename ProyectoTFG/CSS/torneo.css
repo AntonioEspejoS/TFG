@@ -22,13 +22,13 @@ section {
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100vh; /* Asegura que la sección siempre ocupe al menos toda la altura de la pantalla */
+    min-height: 100vh; 
     display: flex;
     justify-content: center;
     /*align-items: center;*/
     overflow: hidden;
     position: relative;
-    padding-top: 4em; /* Añade algo de padding para mejor visualización */
+    padding-top: 4em; 
     
     
 }
@@ -39,8 +39,8 @@ section {
 }
 .container {
     width: 100%;
-    max-width: 1200px; /* Limita el ancho máximo para que no se desborde */
-    overflow-x: auto; /* Permite el scroll horizontal si es necesario */
+    max-width: 1200px;
+    overflow-x: auto; 
 }
 td{
     width: 6em;

@@ -86,7 +86,7 @@ h1 {
 
 .form-group label {
     color: white;
-    display: block; /* Asegura que la etiqueta esté sobre el campo */
+    display: block; 
 }
 
 .botonFormulario {
@@ -133,19 +133,16 @@ nav{
     }
 }
 
-/* Asegúrate de que los íconos y el texto se alineen correctamente en todos los tamaños de pantalla */
 .nav-item {
-    /*display: flex;*/
-    /*align-items: center;*/
+
 }
 
-/* Estilos específicos para el botón de hamburguesa si es necesario */
+/* Estilos específicos para el botón de hamburguesa*/
 .navbar-toggler {
     border: none;
 }
 
 .navbar-toggler-icon {
-    /* Estilos para el ícono de hamburguesa, si se desea personalizar */
 }
 
 
@@ -190,8 +187,8 @@ footer a {
 /* Ajuste para los iconos de redes sociales con Flexbox */
 .social-icons {
     display: flex;
-    justify-content: center; /* Centra los iconos horizontalmente */
-    align-items: center; /* Asegura que los iconos estén alineados verticalmente */
+    justify-content: center; 
+    align-items: center; 
     gap: 20px; /* Espacio entre los iconos */
 }
 
@@ -259,21 +256,21 @@ footer a {
 
 .botones-fila {
     display: flex;
-    justify-content: space-around; /* Espacio alrededor de los botones */
+    justify-content: space-around; 
     flex-wrap: wrap; /* Permite ajustes según el ancho del contenedor */
 }
 
 .botonesPesos {
-    flex: 1 0 auto; /* Flex-grow, flex-shrink, and flex-basis */
-    margin: 5px; /* Espacio entre botones */
-    min-width: 90px; /* Ancho mínimo para cada botón */
-    max-width: 90px; /* Ancho máximo para mantener uniformidad */
-    text-align: center; /* Asegura que el texto esté centrado */
-    white-space: nowrap; /* Evita que el texto se ajuste a una nueva línea */
-    overflow: hidden; /* Oculta el texto que sobrepase el ancho máximo */
+    flex: 1 0 auto; 
+    margin: 5px; 
+    min-width: 90px; 
+    max-width: 90px;
+    text-align: center; 
+    white-space: nowrap; 
+    overflow: hidden; 
     text-overflow: ellipsis; /* Añade "..." al final si el texto es demasiado largo */
-    padding: .375rem .75rem; /* Normaliza el padding para los botones */
-    font-size: 1rem; /* Normaliza el tamaño de fuente para los botones */
+    padding: .375rem .75rem; 
+    font-size: 1rem; 
 }
 .h2Categorias{
     margin: 1em;

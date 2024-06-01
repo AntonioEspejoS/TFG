@@ -55,7 +55,7 @@ section {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center; /* Centrado vertical */
+    align-items: center; 
     background-size: cover;
     background-position: center;
     
@@ -64,8 +64,7 @@ section {
     background-color:rgba(0,0,0,0.7);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    width: 50%; /* Ocupa el ancho disponible */
-   /* max-width: 600px;  Máximo ancho del contenedor */
+    width: 50%; 
     border: 2px solid green;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -107,14 +106,14 @@ footer a {
 /* Ajuste para los iconos de redes sociales con Flexbox */
 .social-icons {
     display: flex;
-    justify-content: center; /* Centra los iconos horizontalmente */
-    align-items: center; /* Asegura que los iconos estén alineados verticalmente */
-    gap: 20px; /* Espacio entre los iconos */
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
 }
 
 .social-icon {
-    width: 40px; /* Ajusta este valor según necesites */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 40px;
+    height: auto; 
 }
 
 
@@ -131,7 +130,7 @@ footer a {
         padding: 0 15px;
     }
     #contenido {
-        padding: 20px; /* Aumenta el padding en dispositivos más pequeños */
+        padding: 20px;
     }
 }
 
